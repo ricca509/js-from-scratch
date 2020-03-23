@@ -12,3 +12,18 @@ console.log(reduce(array1, reducer));
 // 5 + 1 + 2 + 3 + 4
 console.log(reduce(array1, reducer, 5));
 // expected output: 15
+
+const flattened = reduce(
+  [
+    [0, 1],
+    [2, 3],
+    [4, 5]
+  ],
+  function(accumulator, currentValue) {
+    return accumulator.concat(currentValue);
+  },
+  []
+);
+// flattened is [0, 1, 2, 3, 4, 5]
+
+console.log(flattened);
