@@ -1,0 +1,8 @@
+{
+  "name": "js-from-scratch",
+  "version": "1.0.0",
+  "description": "A collection of basic JavaScript functions re-implemented from scratch",
+  "main": "index.js",
+  "author": "Riccardo Coppola <ricca509@gmail.com>",
+  "license": "MIT"
+}
