@@ -1,4 +1,4 @@
-const bind = require("./bind");
+const bind = require("./bind/bind");
 
 module.exports = {
   bind
