@@ -29,3 +29,6 @@ console.log(reformattedArray);
 // [{key: 1, value: 10},
 //  {key: 2, value: 20},
 //  {key: 3, value: 30}]
+
+console.log(map(["1", "2", "3"], parseInt));
+// [1, NaN, NaN]
